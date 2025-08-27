@@ -1,0 +1,322 @@
+{
+  "health": [
+    {
+      "id": "water-intake",
+      "name": "Water Intake Calculator",
+      "metadata": {
+        "title": "Free Water Intake Calculator Online | Calculate your daily water intake needs based on your weight, activity level, and climate | Edurance Hub",
+        "description": "Free online water intake calculator - Calculate your daily water intake needs based on your weight, activity level, and climate. Quick, accurate, and easy to use. No signup required. Part of Edurance Hub's collection of health tools.",
+        "keywords": "water intake calculator, free water intake calculator, online water intake calculator, water intake calculator calculator, health, health tools, free calculator, online tool, edurance hub, health calculator, fitness tool, wellness calculator",
+        "url": "https://edurancehub.com/tools/health/water-intake"
+      }
+    },
+    {
+      "id": "food-calories",
+      "name": "Food Calories Calculator",
+      "metadata": {
+        "title": "Free Food Calories Calculator Online | Track and calculate calories in your meals for better nutrition management | Edurance Hub",
+        "description": "Free online food calories calculator - Track and calculate calories in your meals for better nutrition management. Quick, accurate, and easy to use. No signup required. Part of Edurance Hub's collection of health tools.",
+        "keywords": "food calories calculator, free food calories calculator, online food calories calculator, food calories calculator calculator, health, health tools, free calculator, online tool, edurance hub, health calculator, fitness tool, wellness calculator",
+        "url": "https://edurancehub.com/tools/health/food-calories"
+      }
+    },
+    {
+      "id": "calories-burn",
+      "name": "Calories Burn Calculator",
+      "metadata": {
+        "title": "Free Calories Burn Calculator Online | Calculate calories burned during various activities and exercises | Edurance Hub",
+        "description": "Free online calories burn calculator - Calculate calories burned during various activities and exercises. Quick, accurate, and easy to use. No signup required. Part of Edurance Hub's collection of health tools.",
+        "keywords": "calories burn calculator, free calories burn calculator, online calories burn calculator, calories burn calculator calculator, health, health tools, free calculator, online tool, edurance hub, health calculator, fitness tool, wellness calculator",
+        "url": "https://edurancehub.com/tools/health/calories-burn"
+      }
+    },
+    {
+      "id": "body-fat",
+      "name": "Body Fat Calculator",
+      "metadata": {
+        "title": "Free Body Fat Calculator Online | Calculate your body fat percentage using advanced measurement techniques | Edurance Hub",
+        "description": "Free online body fat calculator - Calculate your body fat percentage using advanced measurement techniques. Quick, accurate, and easy to use. No signup required. Part of Edurance Hub's collection of health tools.",
+        "keywords": "body fat calculator, free body fat calculator, online body fat calculator, body fat calculator calculator, health, health tools, free calculator, online tool, edurance hub, health calculator, fitness tool, wellness calculator",
+        "url": "https://edurancehub.com/tools/health/body-fat"
+      }
+    },
+    {
+      "id": "bmi-calculator",
+      "name": "BMI Calculator",
+      "metadata": {
+        "title": "Free BMI Calculator Online | Calculate your Body Mass Index to assess if you're at a healthy weight | Edurance Hub",
+        "description": "Free online bmi calculator - Calculate your Body Mass Index to assess if you're at a healthy weight. Quick, accurate, and easy to use. No signup required. Part of Edurance Hub's collection of health tools.",
+        "keywords": "bmi calculator, free bmi calculator, online bmi calculator, bmi calculator calculator, health, health tools, free calculator, online tool, edurance hub, health calculator, fitness tool, wellness calculator",
+        "url": "https://edurancehub.com/tools/health/bmi-calculator"
+      }
+    }
+  ],
+  "finance": [
+    {
+      "id": "gst-calculator",
+      "name": "GST Calculator",
+      "metadata": {
+        "title": "Free GST Calculator Online | Calculate GST amounts for your purchases and business transactions | Edurance Hub",
+        "description": "Free online gst calculator - Calculate GST amounts for your purchases and business transactions. Quick, accurate, and easy to use. No signup required. Part of Edurance Hub's collection of finance tools.",
+        "keywords": "gst calculator, free gst calculator, online gst calculator, gst calculator calculator, finance, finance tools, free calculator, online tool, edurance hub, financial calculator, money tool, finance calculator",
+        "url": "https://edurancehub.com/tools/finance/gst-calculator"
+      }
+    },
+    {
+      "id": "electricity-bill",
+      "name": "Electricity Bill Estimator",
+      "metadata": {
+        "title": "Free Electricity Bill Estimator Online | Estimate your monthly electricity bill based on appliance usage | Edurance Hub",
+        "description": "Free online electricity bill estimator - Estimate your monthly electricity bill based on appliance usage. Quick, accurate, and easy to use. No signup required. Part of Edurance Hub's collection of finance tools.",
+        "keywords": "electricity bill estimator, free electricity bill estimator, online electricity bill estimator, electricity bill estimator calculator, finance, finance tools, free calculator, online tool, edurance hub, financial calculator, money tool, finance calculator",
+        "url": "https://edurancehub.com/tools/finance/electricity-bill"
+      }
+    },
+    {
+      "id": "simple-interest",
+      "name": "Simple Interest Calculator",
+      "metadata": {
+        "title": "Free Simple Interest Calculator Online | Calculate simple interest on loans and investments | Edurance Hub",
+        "description": "Free online simple interest calculator - Calculate simple interest on loans and investments. Quick, accurate, and easy to use. No signup required. Part of Edurance Hub's collection of finance tools.",
+        "keywords": "simple interest calculator, free simple interest calculator, online simple interest calculator, simple interest calculator calculator, finance, finance tools, free calculator, online tool, edurance hub, financial calculator, money tool, finance calculator",
+        "url": "https://edurancehub.com/tools/finance/simple-interest"
+      }
+    },
+    {
+      "id": "compound-interest",
+      "name": "Compound Interest Calculator",
+      "metadata": {
+        "title": "Free Compound Interest Calculator Online | Calculate compound interest for savings and investment growth | Edurance Hub",
+        "description": "Free online compound interest calculator - Calculate compound interest for savings and investment growth. Quick, accurate, and easy to use. No signup required. Part of Edurance Hub's collection of finance tools.",
+        "keywords": "compound interest calculator, free compound interest calculator, online compound interest calculator, compound interest calculator calculator, finance, finance tools, free calculator, online tool, edurance hub, financial calculator, money tool, finance calculator",
+        "url": "https://edurancehub.com/tools/finance/compound-interest"
+      }
+    },
+    {
+      "id": "percentage-calculator",
+      "name": "Percentage Calculator",
+      "metadata": {
+        "title": "Free Percentage Calculator Online | Perform various percentage calculations quickly and accurately | Edurance Hub",
+        "description": "Free online percentage calculator - Perform various percentage calculations quickly and accurately. Quick, accurate, and easy to use. No signup required. Part of Edurance Hub's collection of finance tools.",
+        "keywords": "percentage calculator, free percentage calculator, online percentage calculator, percentage calculator calculator, finance, finance tools, free calculator, online tool, edurance hub, financial calculator, money tool, finance calculator",
+        "url": "https://edurancehub.com/tools/finance/percentage-calculator"
+      }
+    },
+    {
+      "id": "loan-emi",
+      "name": "Loan EMI Calculator",
+      "metadata": {
+        "title": "Free Loan EMI Calculator Online | Calculate your monthly loan EMIs with amortization schedule | Edurance Hub",
+        "description": "Free online loan emi calculator - Calculate your monthly loan EMIs with amortization schedule. Quick, accurate, and easy to use. No signup required. Part of Edurance Hub's collection of finance tools.",
+        "keywords": "loan emi calculator, free loan emi calculator, online loan emi calculator, loan emi calculator calculator, finance, finance tools, free calculator, online tool, edurance hub, financial calculator, money tool, finance calculator",
+        "url": "https://edurancehub.com/tools/finance/loan-emi"
+      }
+    },
+    {
+      "id": "currency-converter",
+      "name": "Currency Converter",
+      "metadata": {
+        "title": "Free Currency Converter Online | Convert between different currencies with real-time exchange rates | Edurance Hub",
+        "description": "Free online currency converter - Convert between different currencies with real-time exchange rates. Quick, accurate, and easy to use. No signup required. Part of Edurance Hub's collection of finance tools.",
+        "keywords": "currency converter, free currency converter, online currency converter, currency converter calculator, finance, finance tools, free calculator, online tool, edurance hub, financial calculator, money tool, finance calculator",
+        "url": "https://edurancehub.com/tools/finance/currency-converter"
+      }
+    },
+    {
+      "id": "salary-satisfaction",
+      "name": "Salary Satisfaction Calculator",
+      "metadata": {
+        "title": "Free Salary Satisfaction Calculator Online | Check your financial happiness based on your salary and lifestyle | Edurance Hub",
+        "description": "Free online salary satisfaction calculator - Check your financial happiness based on your salary and lifestyle. Quick, accurate, and easy to use. No signup required. Part of Edurance Hub's collection of finance tools.",
+        "keywords": "salary satisfaction calculator, free salary satisfaction calculator, online salary satisfaction calculator, salary satisfaction calculator calculator, finance, finance tools, free calculator, online tool, edurance hub, financial calculator, money tool, finance calculator",
+        "url": "https://edurancehub.com/tools/finance/salary-satisfaction"
+      }
+    }
+  ],
+  "student": [
+    {
+      "id": "unit-converter",
+      "name": "Unit Converter",
+      "metadata": {
+        "title": "Free Unit Converter Online | Convert between different units of measurement quickly and accurately | Edurance Hub",
+        "description": "Free online unit converter - Convert between different units of measurement quickly and accurately. Quick, accurate, and easy to use. No signup required. Part of Edurance Hub's collection of student tools.",
+        "keywords": "unit converter, free unit converter, online unit converter, unit converter calculator, student, student tools, free calculator, online tool, edurance hub, student tool, education calculator, academic tool",
+        "url": "https://edurancehub.com/tools/student/unit-converter"
+      }
+    },
+    {
+      "id": "percentage-cgpa",
+      "name": "Percentage to CGPA Converter",
+      "metadata": {
+        "title": "Free Percentage to CGPA Converter Online | Convert percentage scores to CGPA and vice versa for academic purposes | Edurance Hub",
+        "description": "Free online percentage to cgpa converter - Convert percentage scores to CGPA and vice versa for academic purposes. Quick, accurate, and easy to use. No signup required. Part of Edurance Hub's collection of student tools.",
+        "keywords": "percentage to cgpa converter, free percentage to cgpa converter, online percentage to cgpa converter, percentage to cgpa converter calculator, student, student tools, free calculator, online tool, edurance hub, student tool, education calculator, academic tool",
+        "url": "https://edurancehub.com/tools/student/percentage-cgpa"
+      }
+    },
+    {
+      "id": "timezone-converter",
+      "name": "Time Zone Converter",
+      "metadata": {
+        "title": "Free Time Zone Converter Online | Convert time between different time zones around the world | Edurance Hub",
+        "description": "Free online time zone converter - Convert time between different time zones around the world. Quick, accurate, and easy to use. No signup required. Part of Edurance Hub's collection of student tools.",
+        "keywords": "time zone converter, free time zone converter, online time zone converter, time zone converter calculator, student, student tools, free calculator, online tool, edurance hub, student tool, education calculator, academic tool",
+        "url": "https://edurancehub.com/tools/student/timezone-converter"
+      }
+    },
+    {
+      "id": "profession-finder",
+      "name": "Career Path Finder",
+      "metadata": {
+        "title": "Free Career Path Finder Online | Discover your ideal career based on your interests and skills | Edurance Hub",
+        "description": "Free online career path finder - Discover your ideal career based on your interests and skills. Quick, accurate, and easy to use. No signup required. Part of Edurance Hub's collection of student tools.",
+        "keywords": "career path finder, free career path finder, online career path finder, career path finder calculator, student, student tools, free calculator, online tool, edurance hub, student tool, education calculator, academic tool",
+        "url": "https://edurancehub.com/tools/student/profession-finder"
+      }
+    },
+    {
+      "id": "exam-survival",
+      "name": "Exam Survival Probability",
+      "metadata": {
+        "title": "Free Exam Survival Probability Online | Predict your exam survival chances based on preparation level | Edurance Hub",
+        "description": "Free online exam survival probability - Predict your exam survival chances based on preparation level. Quick, accurate, and easy to use. No signup required. Part of Edurance Hub's collection of student tools.",
+        "keywords": "exam survival probability, free exam survival probability, online exam survival probability, exam survival probability calculator, student, student tools, free calculator, online tool, edurance hub, student tool, education calculator, academic tool",
+        "url": "https://edurancehub.com/tools/student/exam-survival"
+      }
+    }
+  ],
+  "relationship": [
+    {
+      "id": "love-percentage",
+      "name": "Love Percentage Calculator",
+      "metadata": {
+        "title": "Free Love Percentage Calculator Online | Calculate love compatibility between you and your partner | Edurance Hub",
+        "description": "Free online love percentage calculator - Calculate love compatibility between you and your partner. Quick, accurate, and easy to use. No signup required. Part of Edurance Hub's collection of relationship tools.",
+        "keywords": "love percentage calculator, free love percentage calculator, online love percentage calculator, love percentage calculator calculator, relationship, relationship tools, free calculator, online tool, edurance hub, relationship calculator, love tool, fun calculator",
+        "url": "https://edurancehub.com/tools/relationship/love-percentage"
+      }
+    },
+    {
+      "id": "friendship-calculator",
+      "name": "Friendship Calculator",
+      "metadata": {
+        "title": "Free Friendship Calculator Online | Test the strength of your friendship with this fun calculator | Edurance Hub",
+        "description": "Free online friendship calculator - Test the strength of your friendship with this fun calculator. Quick, accurate, and easy to use. No signup required. Part of Edurance Hub's collection of relationship tools.",
+        "keywords": "friendship calculator, free friendship calculator, online friendship calculator, friendship calculator calculator, relationship, relationship tools, free calculator, online tool, edurance hub, relationship calculator, love tool, fun calculator",
+        "url": "https://edurancehub.com/tools/relationship/friendship-calculator"
+      }
+    },
+    {
+      "id": "breakup-probability",
+      "name": "Breakup Probability Calculator",
+      "metadata": {
+        "title": "Free Breakup Probability Calculator Online | Calculate the risk of breakup in your relationship | Edurance Hub",
+        "description": "Free online breakup probability calculator - Calculate the risk of breakup in your relationship. Quick, accurate, and easy to use. No signup required. Part of Edurance Hub's collection of relationship tools.",
+        "keywords": "breakup probability calculator, free breakup probability calculator, online breakup probability calculator, breakup probability calculator calculator, relationship, relationship tools, free calculator, online tool, edurance hub, relationship calculator, love tool, fun calculator",
+        "url": "https://edurancehub.com/tools/relationship/breakup-probability"
+      }
+    },
+    {
+      "id": "cheating-suspicion",
+      "name": "Cheating Suspicion Score",
+      "metadata": {
+        "title": "Free Cheating Suspicion Score Online | Detect cheating suspicion level in your relationship | Edurance Hub",
+        "description": "Free online cheating suspicion score - Detect cheating suspicion level in your relationship. Quick, accurate, and easy to use. No signup required. Part of Edurance Hub's collection of relationship tools.",
+        "keywords": "cheating suspicion score, free cheating suspicion score, online cheating suspicion score, cheating suspicion score calculator, relationship, relationship tools, free calculator, online tool, edurance hub, relationship calculator, love tool, fun calculator",
+        "url": "https://edurancehub.com/tools/relationship/cheating-suspicion"
+      }
+    },
+    {
+      "id": "best-friend-loyalty",
+      "name": "Best Friend Loyalty Rating",
+      "metadata": {
+        "title": "Free Best Friend Loyalty Rating Online | Rate your bestie's loyalty with this entertaining calculator | Edurance Hub",
+        "description": "Free online best friend loyalty rating - Rate your bestie's loyalty with this entertaining calculator. Quick, accurate, and easy to use. No signup required. Part of Edurance Hub's collection of relationship tools.",
+        "keywords": "best friend loyalty rating, free best friend loyalty rating, online best friend loyalty rating, best friend loyalty rating calculator, relationship, relationship tools, free calculator, online tool, edurance hub, relationship calculator, love tool, fun calculator",
+        "url": "https://edurancehub.com/tools/relationship/best-friend-loyalty"
+      }
+    },
+    {
+      "id": "divorce-outcome",
+      "name": "Divorce Outcome Calculator",
+      "metadata": {
+        "title": "Free Divorce Outcome Calculator Online | Predict divorce settlement results and outcomes | Edurance Hub",
+        "description": "Free online divorce outcome calculator - Predict divorce settlement results and outcomes. Quick, accurate, and easy to use. No signup required. Part of Edurance Hub's collection of relationship tools.",
+        "keywords": "divorce outcome calculator, free divorce outcome calculator, online divorce outcome calculator, divorce outcome calculator calculator, relationship, relationship tools, free calculator, online tool, edurance hub, relationship calculator, love tool, fun calculator",
+        "url": "https://edurancehub.com/tools/relationship/divorce-outcome"
+      }
+    },
+    {
+      "id": "gold-digger",
+      "name": "Gold Digger Calculator",
+      "metadata": {
+        "title": "Free Gold Digger Calculator Online | Check if someone is with you for love or money | Edurance Hub",
+        "description": "Free online gold digger calculator - Check if someone is with you for love or money. Quick, accurate, and easy to use. No signup required. Part of Edurance Hub's collection of relationship tools.",
+        "keywords": "gold digger calculator, free gold digger calculator, online gold digger calculator, gold digger calculator calculator, relationship, relationship tools, free calculator, online tool, edurance hub, relationship calculator, love tool, fun calculator",
+        "url": "https://edurancehub.com/tools/relationship/gold-digger"
+      }
+    }
+  ],
+  "entertainment": [
+    {
+      "id": "password-strength",
+      "name": "Password Strength Checker",
+      "metadata": {
+        "title": "Free Password Strength Checker Online | Check the security strength of your passwords | Edurance Hub",
+        "description": "Free online password strength checker - Check the security strength of your passwords. Quick, accurate, and easy to use. No signup required. Part of Edurance Hub's collection of entertainment tools.",
+        "keywords": "password strength checker, free password strength checker, online password strength checker, password strength checker calculator, entertainment, entertainment tools, free calculator, online tool, edurance hub, fun tool, entertainment calculator, quiz tool",
+        "url": "https://edurancehub.com/tools/entertainment/password-strength"
+      }
+    },
+    {
+      "id": "character-checker",
+      "name": "Character Checker Tool",
+      "metadata": {
+        "title": "Free Character Checker Tool Online | Discover your personality traits with this fun character quiz | Edurance Hub",
+        "description": "Free online character checker tool - Discover your personality traits with this fun character quiz. Quick, accurate, and easy to use. No signup required. Part of Edurance Hub's collection of entertainment tools.",
+        "keywords": "character checker tool, free character checker tool, online character checker tool, character checker tool calculator, entertainment, entertainment tools, free calculator, online tool, edurance hub, fun tool, entertainment calculator, quiz tool",
+        "url": "https://edurancehub.com/tools/entertainment/character-checker"
+      }
+    },
+    {
+      "id": "sex-ride-tonight",
+      "name": "Sex Ride Tonight Predictor",
+      "metadata": {
+        "title": "Free Sex Ride Tonight Predictor Online | Predict tonight's passion level with your partner | Edurance Hub",
+        "description": "Free online sex ride tonight predictor - Predict tonight's passion level with your partner. Quick, accurate, and easy to use. No signup required. Part of Edurance Hub's collection of entertainment tools.",
+        "keywords": "sex ride tonight predictor, free sex ride tonight predictor, online sex ride tonight predictor, sex ride tonight predictor calculator, entertainment, entertainment tools, free calculator, online tool, edurance hub, fun tool, entertainment calculator, quiz tool",
+        "url": "https://edurancehub.com/tools/entertainment/sex-ride-tonight"
+      }
+    },
+    {
+      "id": "dowry-calculator",
+      "name": "Dowry Calculator",
+      "metadata": {
+        "title": "Free Dowry Calculator Online | Calculate groom's 'market value' in traditional terms | Edurance Hub",
+        "description": "Free online dowry calculator - Calculate groom's 'market value' in traditional terms. Quick, accurate, and easy to use. No signup required. Part of Edurance Hub's collection of entertainment tools.",
+        "keywords": "dowry calculator, free dowry calculator, online dowry calculator, dowry calculator calculator, entertainment, entertainment tools, free calculator, online tool, edurance hub, fun tool, entertainment calculator, quiz tool",
+        "url": "https://edurancehub.com/tools/entertainment/dowry-calculator"
+      }
+    },
+    {
+      "id": "pet-affection",
+      "name": "Pet Affection Calculator",
+      "metadata": {
+        "title": "Free Pet Affection Calculator Online | Measure your pet's love for you with this fun calculator | Edurance Hub",
+        "description": "Free online pet affection calculator - Measure your pet's love for you with this fun calculator. Quick, accurate, and easy to use. No signup required. Part of Edurance Hub's collection of entertainment tools.",
+        "keywords": "pet affection calculator, free pet affection calculator, online pet affection calculator, pet affection calculator calculator, entertainment, entertainment tools, free calculator, online tool, edurance hub, fun tool, entertainment calculator, quiz tool",
+        "url": "https://edurancehub.com/tools/entertainment/pet-affection"
+      }
+    },
+    {
+      "id": "laziness-calculator",
+      "name": "Laziness Calculator",
+      "metadata": {
+        "title": "Free Laziness Calculator Online | Discover your laziness level with this entertaining quiz | Edurance Hub",
+        "description": "Free online laziness calculator - Discover your laziness level with this entertaining quiz. Quick, accurate, and easy to use. No signup required. Part of Edurance Hub's collection of entertainment tools.",
+        "keywords": "laziness calculator, free laziness calculator, online laziness calculator, laziness calculator calculator, entertainment, entertainment tools, free calculator, online tool, edurance hub, fun tool, entertainment calculator, quiz tool",
+        "url": "https://edurancehub.com/tools/entertainment/laziness-calculator"
+      }
+    }
+  ]
+}

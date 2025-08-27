@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+Sitemap: https://edurancehub.com/sitemap.xml
+
+# Prevent crawling of unnecessary files
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /backup/
+
+# Specific file types to exclude
+Disallow: /*.pdf$
+Disallow: /*.zip$
+
+# Crawl delay for polite crawling
+Crawl-delay: 1
+
+# Host directive
+Host: edurancehub.com
+
+# Sitemaps
+Sitemap: https://edurancehub.com/sitemap.xml

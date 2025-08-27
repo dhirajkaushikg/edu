@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Comfortaa', cursive;
+}
+
+/* Theme Variables */
+:root {
+  /* Light Mode Variables - Enhanced for better visibility */
+  --glass-bg-light: rgba(255, 255, 255, 0.85); /* Increased opacity for better visibility */
+  --glass-border-light: rgba(109, 40, 217, 0.4); /* Darker purple border for better contrast */
+  --glass-hover-light: rgba(255, 255, 255, 0.95);
+  --text-primary-light: #111827; /* Darker text for better readability */
+  --text-secondary-light: #374151; /* Improved secondary text color */
+  --text-accent-light: #7c3aed; /* Vibrant purple for accents */
+  
+  /* Dark Mode Variables */
+  --glass-bg-dark: rgba(255, 255, 255, 0.03);
+  --glass-border-dark: rgba(139, 92, 246, 0.2);
+  --glass-hover-dark: rgba(255, 255, 255, 0.08);
+  --text-primary-dark: #ffffff;
+  --text-secondary-dark: #d1d5db;
+  --text-accent-dark: #a855f7;
+}
+
+/* Light Theme Styles - Enhanced for better visibility */
+.light-theme {
+  --scrollbar-track: rgba(100, 116, 139, 0.1);
+  --scrollbar-thumb: linear-gradient(135deg, #7c3aed, #db2777);
+  --glass-bg: var(--glass-bg-light);
+  --glass-border: var(--glass-border-light);
+  --glass-hover: var(--glass-hover-light);
+  --selection-bg: rgba(139, 92, 246, 0.3);
+  --selection-text: #111827;
+  --card-shadow-light: 0 10px 25px -5px rgba(109, 40, 217, 0.15), 0 8px 10px -6px rgba(109, 40, 217, 0.15);
+  --card-border-light: rgba(109, 40, 217, 0.3);
+}
+
+/* Dark Theme Styles */
+.dark-theme {
+  --scrollbar-track: rgba(0, 0, 0, 0.2);
+  --scrollbar-thumb: linear-gradient(135deg, #8b5cf6, #ec4899);
+  --glass-bg: var(--glass-bg-dark);
+  --glass-border: var(--glass-border-dark);
+  --glass-hover: var(--glass-hover-dark);
+  --selection-bg: rgba(139, 92, 246, 0.3);
+  --selection-text: white;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-track);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #7c3aed, #db2777);
+}
+
+/* Firefox Scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #8b5cf6 var(--scrollbar-track);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.6s ease-out;
+}
+
+/* Glass morphism utilities */
+.glass {
+  background: var(--glass-bg);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--glass-border);
+  border-radius: 16px;
+}
+
+.glass-hover {
+  transition: all 0.3s ease;
+}
+
+.glass-hover:hover {
+  background: var(--glass-hover);
+  border-color: rgba(139, 92, 246, 0.4);
+  box-shadow: 0 20px 25px -5px rgba(139, 92, 246, 0.1), 0 10px 10px -5px rgba(139, 92, 246, 0.04);
+  transform: scale(1.02);
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+  .ml-64 {
+    margin-left: 0;
+  }
+}
+
+/* Prevent horizontal overflow */
+body {
+  overflow-x: hidden;
+}
+
+/* Ensure proper box sizing */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Responsive container improvements */
+.container {
+  max-width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Form elements responsive behavior */
+input, textarea, select {
+  min-width: 0;
+  word-wrap: break-word;
+}
+
+/* Selection color */
+::selection {
+  background: var(--selection-bg);
+  color: var(--selection-text);
+}
+
+/* Focus styles */
+input:focus,
+textarea:focus,
+select:focus,
+button:focus {
+  outline: 2px solid rgba(139, 92, 246, 0.5);
+  outline-offset: 2px;
+}
+
+/* Custom gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, #8b5cf6, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Smooth transitions for all interactive elements */
+button,
+a,
+input,
+select,
+textarea {
+  transition: all 0.3s ease;
+}
+
+/* Loading animation */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Moving line animations */
+@keyframes moveHorizontal {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(100vw);
+    opacity: 0;
+  }
+}
+
+@keyframes moveVertical {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+}
+
+@keyframes moveDiagonal {
+  0% {
+    transform: translate(-100%, -100%);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(100vw, 100vh);
+    opacity: 0;
+  }
+}
+
+@keyframes moveHorizontalReverse {
+  0% {
+    transform: translateX(100vw);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+
+@keyframes moveVerticalReverse {
+  0% {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  33% {
+    transform: translateY(-15px) rotate(2deg);
+  }
+  66% {
+    transform: translateY(8px) rotate(-2deg);
+  }
+}
+
+.animate-move-horizontal {
+  animation: moveHorizontal var(--duration, 15s) linear infinite;
+}
+
+.animate-move-vertical {
+  animation: moveVertical var(--duration, 18s) linear infinite;
+}
+
+.animate-move-diagonal {
+  animation: moveDiagonal var(--duration, 20s) linear infinite;
+}
+
+.animate-move-horizontal-reverse {
+  animation: moveHorizontalReverse var(--duration, 12s) linear infinite;
+}
+
+.animate-move-vertical-reverse {
+  animation: moveVerticalReverse var(--duration, 16s) linear infinite;
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+/* Equal height grid utilities */
+.grid-equal-height {
+  display: grid;
+}
+
+.grid-equal-height > * {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-equal-height > * > * {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Custom scale for subtle hover effects */
+.scale-102 {
+  transform: scale(1.02);
+}
