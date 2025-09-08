@@ -13,6 +13,7 @@ import GameDetail from './components/GameDetail';
 import AnimatedBackground from './components/AnimatedBackground';
 import StructuredData from './components/StructuredData';
 import { homeStructuredData, organizationStructuredData, faqStructuredData } from './config/seoConfig';
+import AllLinks from './pages/AllLinks';
 import { ThemeProvider } from './context/ThemeContext';
 
 function App() {
@@ -54,6 +55,7 @@ function App() {
                   <Route path="/games/:gameId" element={<GameDetail />} />
                   <Route path="/about" element={<About />} />
                   <Route path="/contact" element={<Contact />} />
+                  <Route path="/all-links" element={<AllLinks />} />
                   <Route path="*" element={<NotFound />} />
                 </Routes>
               </div>
