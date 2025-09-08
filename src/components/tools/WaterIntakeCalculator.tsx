@@ -3,6 +3,13 @@ import { Droplets, Activity, Thermometer, User } from 'lucide-react';
 // Removed Helmet import since SEO is handled by ToolDetail component
 
 const WaterIntakeCalculator = () => {
+  const seo = {
+    title: 'Free Water Intake Calculator Online | Health Tool | Edurance Hub',
+    description: 'Free online Water Intake Calculator. Calculate your daily water needs based on weight, age, activity, and climate. Quick, accurate, and easy to use. No signup required. Part of Edurance Hub health tools.',
+    keywords: 'water intake calculator, free water calculator, health tool, hydration calculator, daily water needs, edurance hub',
+    url: 'https://edurancehub.netlify.app/tools/water-intake',
+    image: 'https://edurancehub.netlify.app/logo.png'
+  };
   const [weight, setWeight] = useState('');
   const [activityLevel, setActivityLevel] = useState('moderate');
   const [climate, setClimate] = useState('normal');
@@ -64,111 +71,113 @@ const WaterIntakeCalculator = () => {
   };
 
   return (
-    // Removed Helmet wrapper since SEO is handled by ToolDetail component
-    <div className="max-w-2xl mx-auto space-y-8">
-      <div className="text-center">
-        <Droplets size={48} className="mx-auto text-blue-400 mb-4" />
-        <h2 className="text-3xl font-bold text-white mb-4">Water Intake Calculator</h2>
-        <p className="text-purple-200">Calculate your daily water intake needs based on your lifestyle</p>
-      </div>
-
-      <div className="space-y-6">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div>
-            <label className="flex items-center gap-2 text-purple-300 text-sm font-medium mb-2">
-              <User size={16} />
-              Weight (kg)
-            </label>
-            <input
-              type="number"
-              value={weight}
-              onChange={(e) => setWeight(e.target.value)}
-              className="w-full px-4 py-3 bg-white/5 border border-purple-500/30 rounded-xl text-white placeholder-purple-300 focus:outline-none focus:border-purple-400 focus:bg-white/10 transition-all duration-300"
-              placeholder="70"
-            />
-          </div>
-
-          <div>
-            <label className="flex items-center gap-2 text-purple-300 text-sm font-medium mb-2">
-              <User size={16} />
-              Age
-            </label>
-            <input
-              type="number"
-              value={age}
-              onChange={(e) => setAge(e.target.value)}
-              className="w-full px-4 py-3 bg-white/5 border border-purple-500/30 rounded-xl text-white placeholder-purple-300 focus:outline-none focus:border-purple-400 focus:bg-white/10 transition-all duration-300"
-              placeholder="25"
-            />
-          </div>
+    <>
+      {/* SEO Helmet Block and JSON-LD Structured Data can be handled by parent or ToolDetail component if needed */}
+      <div className="max-w-2xl mx-auto space-y-8">
+        <div className="text-center">
+          <Droplets size={48} className="mx-auto text-blue-400 mb-4" />
+          <h2 className="text-3xl font-bold text-white mb-4">Water Intake Calculator</h2>
+          <p className="text-purple-200">Calculate your daily water intake needs based on your lifestyle</p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="space-y-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <label className="flex items-center gap-2 text-purple-300 text-sm font-medium mb-2">
+                <User size={16} />
+                Weight (kg)
+              </label>
+              <input
+                type="number"
+                value={weight}
+                onChange={(e) => setWeight(e.target.value)}
+                className="w-full px-4 py-3 bg-white/5 border border-purple-500/30 rounded-xl text-white placeholder-purple-300 focus:outline-none focus:border-purple-400 focus:bg-white/10 transition-all duration-300"
+                placeholder="70"
+              />
+            </div>
+
+            <div>
+              <label className="flex items-center gap-2 text-purple-300 text-sm font-medium mb-2">
+                <User size={16} />
+                Age
+              </label>
+              <input
+                type="number"
+                value={age}
+                onChange={(e) => setAge(e.target.value)}
+                className="w-full px-4 py-3 bg-white/5 border border-purple-500/30 rounded-xl text-white placeholder-purple-300 focus:outline-none focus:border-purple-400 focus:bg-white/10 transition-all duration-300"
+                placeholder="25"
+              />
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <label className="block text-purple-300 text-sm font-medium mb-2">Gender</label>
+              <select
+                value={gender}
+                onChange={(e) => setGender(e.target.value)}
+                className="w-full px-4 py-3 bg-white/5 border border-purple-500/30 rounded-xl text-white focus:outline-none focus:border-purple-400 focus:bg-white/10 transition-all duration-300"
+              >
+                <option value="male" className="bg-gray-800">Male</option>
+                <option value="female" className="bg-gray-800">Female</option>
+              </select>
+            </div>
+
+            <div>
+              <label className="flex items-center gap-2 text-purple-300 text-sm font-medium mb-2">
+                <Activity size={16} />
+                Activity Level
+              </label>
+              <select
+                value={activityLevel}
+                onChange={(e) => setActivityLevel(e.target.value)}
+                className="w-full px-4 py-3 bg-white/5 border border-purple-500/30 rounded-xl text-white focus:outline-none focus:border-purple-400 focus:bg-white/10 transition-all duration-300"
+              >
+                <option value="sedentary" className="bg-gray-800">Sedentary</option>
+                <option value="moderate" className="bg-gray-800">Moderate</option>
+                <option value="active" className="bg-gray-800">Active</option>
+                <option value="veryActive" className="bg-gray-800">Very Active</option>
+              </select>
+            </div>
+          </div>
+
           <div>
-            <label className="block text-purple-300 text-sm font-medium mb-2">Gender</label>
+            <label className="flex items-center gap-2 text-purple-300 text-sm font-medium mb-2">
+              <Thermometer size={16} />
+              Climate
+            </label>
             <select
-              value={gender}
-              onChange={(e) => setGender(e.target.value)}
+              value={climate}
+              onChange={(e) => setClimate(e.target.value)}
               className="w-full px-4 py-3 bg-white/5 border border-purple-500/30 rounded-xl text-white focus:outline-none focus:border-purple-400 focus:bg-white/10 transition-all duration-300"
             >
-              <option value="male" className="bg-gray-800">Male</option>
-              <option value="female" className="bg-gray-800">Female</option>
+              <option value="cold" className="bg-gray-800">Cold</option>
+              <option value="normal" className="bg-gray-800">Normal</option>
+              <option value="hot" className="bg-gray-800">Hot</option>
+              <option value="veryHot" className="bg-gray-800">Very Hot</option>
             </select>
           </div>
 
-          <div>
-            <label className="flex items-center gap-2 text-purple-300 text-sm font-medium mb-2">
-              <Activity size={16} />
-              Activity Level
-            </label>
-            <select
-              value={activityLevel}
-              onChange={(e) => setActivityLevel(e.target.value)}
-              className="w-full px-4 py-3 bg-white/5 border border-purple-500/30 rounded-xl text-white focus:outline-none focus:border-purple-400 focus:bg-white/10 transition-all duration-300"
-            >
-              <option value="sedentary" className="bg-gray-800">Sedentary</option>
-              <option value="moderate" className="bg-gray-800">Moderate</option>
-              <option value="active" className="bg-gray-800">Active</option>
-              <option value="veryActive" className="bg-gray-800">Very Active</option>
-            </select>
-          </div>
-        </div>
-
-        <div>
-          <label className="flex items-center gap-2 text-purple-300 text-sm font-medium mb-2">
-            <Thermometer size={16} />
-            Climate
-          </label>
-          <select
-            value={climate}
-            onChange={(e) => setClimate(e.target.value)}
-            className="w-full px-4 py-3 bg-white/5 border border-purple-500/30 rounded-xl text-white focus:outline-none focus:border-purple-400 focus:bg-white/10 transition-all duration-300"
+          <button
+            onClick={calculateWaterIntake}
+            disabled={!weight || !age}
+            className="w-full px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-xl hover:from-blue-700 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-blue-500/25 disabled:opacity-50 disabled:cursor-not-allowed"
           >
-            <option value="cold" className="bg-gray-800">Cold</option>
-            <option value="normal" className="bg-gray-800">Normal</option>
-            <option value="hot" className="bg-gray-800">Hot</option>
-            <option value="veryHot" className="bg-gray-800">Very Hot</option>
-          </select>
+            Calculate Water Intake
+          </button>
+
+          {result && (
+            <div className={`bg-gradient-to-r ${result.bgColor} rounded-2xl p-6 border text-center`}>
+              <h3 className="text-2xl font-bold text-white mb-2">Daily Water Intake</h3>
+              <div className="text-4xl font-bold text-blue-400 mb-2">{result.ml} ml</div>
+              <div className="text-2xl font-bold text-white">{(result.ml / 1000).toFixed(1)} liters</div>
+              <p className="text-purple-200 text-sm mt-2">≈ {Math.round(result.ml / 250)} glasses (250ml each)</p>
+            </div>
+          )}
         </div>
-
-        <button
-          onClick={calculateWaterIntake}
-          disabled={!weight || !age}
-          className="w-full px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-xl hover:from-blue-700 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-blue-500/25 disabled:opacity-50 disabled:cursor-not-allowed"
-        >
-          Calculate Water Intake
-        </button>
-
-        {result && (
-          <div className={`bg-gradient-to-r ${result.bgColor} rounded-2xl p-6 border text-center`}>
-            <h3 className="text-2xl font-bold text-white mb-2">Daily Water Intake</h3>
-            <div className="text-4xl font-bold text-blue-400 mb-2">{result.ml} ml</div>
-            <div className="text-2xl font-bold text-white">{(result.ml / 1000).toFixed(1)} liters</div>
-            <p className="text-purple-200 text-sm mt-2">≈ {Math.round(result.ml / 250)} glasses (250ml each)</p>
-          </div>
-        )}
       </div>
-    </div>
+    </>
   );
 };
 

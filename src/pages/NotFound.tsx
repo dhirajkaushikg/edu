@@ -1,7 +1,7 @@
-import React from 'react';
+// import React from 'react';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-import { Home, Search, Tool, Gamepad2 } from 'lucide-react';
+import { Home, Search, Gamepad2 } from 'lucide-react';
 import GlassCard from '../components/GlassCard';
 import { useTheme } from '../context/ThemeContext';
 
@@ -50,8 +50,8 @@ const NotFound = () => {
               <Link to="/tools" className="block">
                 <GlassCard className="p-6 h-full hover:scale-105 transition-transform duration-300">
                   <div className="flex flex-col items-center text-center">
-                    <div className="p-3 rounded-xl bg-purple-500/20 mb-4">
-                      <Tool size={32} className="text-purple-400" />
+            <div className="p-3 rounded-xl bg-purple-500/20 mb-4">
+              <Search size={32} className="text-purple-400" />
                     </div>
                     <h3 className={`font-semibold text-lg mb-2 ${
                       isDark ? 'text-white' : 'text-gray-900'

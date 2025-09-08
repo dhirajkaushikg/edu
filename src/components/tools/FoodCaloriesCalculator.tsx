@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+import { Helmet } from 'react-helmet';
 import { Apple, Search, Plus, Trash2 } from 'lucide-react';
 
 interface FoodItem {
@@ -8,6 +9,13 @@ interface FoodItem {
 }
 
 const FoodCaloriesCalculator = () => {
+  const seo = {
+    title: 'Free Food Calories Calculator Online | Health Tool | Edurance Hub',
+    description: 'Free online Food Calories Calculator. Track your daily calorie intake by adding foods. Quick, accurate, and easy to use. No signup required. Part of Edurance Hub health tools.',
+    keywords: 'food calories calculator, free calorie calculator, health tool, nutrition calculator, daily calories, edurance hub',
+    url: 'https://edurancehub.netlify.app/tools/food-calories',
+    image: 'https://edurancehub.netlify.app/logo.png'
+  };
   const [foodItems, setFoodItems] = useState<FoodItem[]>([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedFood, setSelectedFood] = useState('');
@@ -73,6 +81,37 @@ const FoodCaloriesCalculator = () => {
   };
 
   return (
+  <>
+    {/* SEO Helmet Block */}
+    <Helmet>
+      <title>{seo.title}</title>
+      <meta name="description" content={seo.description} />
+      <meta name="keywords" content={seo.keywords} />
+      <meta name="author" content="Edurance Hub" />
+      <meta property="og:title" content={seo.title} />
+      <meta property="og:description" content={seo.description} />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content={seo.url} />
+      <meta property="og:image" content={seo.image} />
+      <meta property="og:site_name" content="Edurance Hub" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content={seo.title} />
+      <meta name="twitter:description" content={seo.description} />
+      <meta name="twitter:image" content={seo.image} />
+      <link rel="canonical" href={seo.url} />
+    </Helmet>
+    {/* JSON-LD Structured Data */}
+    <script type="application/ld+json">{JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Food Calories Calculator",
+      "description": seo.description,
+      "applicationCategory": "HealthApplication",
+      "operatingSystem": "Web",
+      "url": seo.url,
+      "image": seo.image,
+      "author": {"@type": "Organization", "name": "Edurance Hub"}
+    })}</script>
     <div className="max-w-2xl mx-auto space-y-8">
       <div className="text-center">
         <Apple size={48} className="mx-auto text-green-400 mb-4" />
@@ -178,6 +217,7 @@ const FoodCaloriesCalculator = () => {
         )}
       </div>
     </div>
+  </>
   );
 };
 
