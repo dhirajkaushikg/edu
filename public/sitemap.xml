@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <!-- Homepage -->
   <url>
-    <loc>https://edurancehub.com/</loc>
+    <loc>https://edurancehub.vercel.app/</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -10,25 +10,25 @@
   
   <!-- Main Pages -->
   <url>
-    <loc>https://edurancehub.com/tools</loc>
+    <loc>https://edurancehub.vercel.app/tools</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://edurancehub.com/games</loc>
+    <loc>https://edurancehub.vercel.app/games</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://edurancehub.com/about</loc>
+    <loc>https://edurancehub.vercel.app/about</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://edurancehub.com/contact</loc>
+    <loc>https://edurancehub.vercel.app/contact</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -36,31 +36,31 @@
   
   <!-- Health Tools -->
   <url>
-    <loc>https://edurancehub.com/tools/health/water-intake</loc>
+    <loc>https://edurancehub.vercel.app/tools/health/water-intake</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://edurancehub.com/tools/health/food-calories</loc>
+    <loc>https://edurancehub.vercel.app/tools/health/food-calories</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://edurancehub.com/tools/health/calories-burn</loc>
+    <loc>https://edurancehub.vercel.app/tools/health/calories-burn</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://edurancehub.com/tools/health/body-fat</loc>
+    <loc>https://edurancehub.vercel.app/tools/health/body-fat</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://edurancehub.com/tools/health/bmi-calculator</loc>
+    <loc>https://edurancehub.vercel.app/tools/health/bmi-calculator</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -68,49 +68,49 @@
   
   <!-- Finance Tools -->
   <url>
-    <loc>https://edurancehub.com/tools/finance/gst-calculator</loc>
+    <loc>https://edurancehub.vercel.app/tools/finance/gst-calculator</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://edurancehub.com/tools/finance/electricity-bill</loc>
+    <loc>https://edurancehub.vercel.app/tools/finance/electricity-bill</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://edurancehub.com/tools/finance/simple-interest</loc>
+    <loc>https://edurancehub.vercel.app/tools/finance/simple-interest</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://edurancehub.com/tools/finance/compound-interest</loc>
+    <loc>https://edurancehub.vercel.app/tools/finance/compound-interest</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://edurancehub.com/tools/finance/percentage-calculator</loc>
+    <loc>https://edurancehub.vercel.app/tools/finance/percentage-calculator</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://edurancehub.com/tools/finance/loan-emi</loc>
+    <loc>https://edurancehub.vercel.app/tools/finance/loan-emi</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://edurancehub.com/tools/finance/currency-converter</loc>
+    <loc>https://edurancehub.vercel.app/tools/finance/currency-converter</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://edurancehub.com/tools/finance/salary-satisfaction</loc>
+    <loc>https://edurancehub.vercel.app/tools/finance/salary-satisfaction</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -118,31 +118,31 @@
   
   <!-- Student Tools -->
   <url>
-    <loc>https://edurancehub.com/tools/student/unit-converter</loc>
+    <loc>https://edurancehub.vercel.app/tools/student/unit-converter</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://edurancehub.com/tools/student/percentage-cgpa</loc>
+    <loc>https://edurancehub.vercel.app/tools/student/percentage-cgpa</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://edurancehub.com/tools/student/timezone-converter</loc>
+    <loc>https://edurancehub.vercel.app/tools/student/timezone-converter</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://edurancehub.com/tools/student/profession-finder</loc>
+    <loc>https://edurancehub.vercel.app/tools/student/profession-finder</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://edurancehub.com/tools/student/exam-survival</loc>
+    <loc>https://edurancehub.vercel.app/tools/student/exam-survival</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -150,43 +150,43 @@
   
   <!-- Relationship Tools -->
   <url>
-    <loc>https://edurancehub.com/tools/relationship/love-percentage</loc>
+    <loc>https://edurancehub.vercel.app/tools/relationship/love-percentage</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://edurancehub.com/tools/relationship/friendship-calculator</loc>
+    <loc>https://edurancehub.vercel.app/tools/relationship/friendship-calculator</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://edurancehub.com/tools/relationship/breakup-probability</loc>
+    <loc>https://edurancehub.vercel.app/tools/relationship/breakup-probability</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://edurancehub.com/tools/relationship/cheating-suspicion</loc>
+    <loc>https://edurancehub.vercel.app/tools/relationship/cheating-suspicion</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://edurancehub.com/tools/relationship/best-friend-loyalty</loc>
+    <loc>https://edurancehub.vercel.app/tools/relationship/best-friend-loyalty</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://edurancehub.com/tools/relationship/divorce-outcome</loc>
+    <loc>https://edurancehub.vercel.app/tools/relationship/divorce-outcome</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://edurancehub.com/tools/relationship/gold-digger</loc>
+    <loc>https://edurancehub.vercel.app/tools/relationship/gold-digger</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -194,37 +194,37 @@
   
   <!-- Entertainment Tools -->
   <url>
-    <loc>https://edurancehub.com/tools/entertainment/password-strength</loc>
+    <loc>https://edurancehub.vercel.app/tools/entertainment/password-strength</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://edurancehub.com/tools/entertainment/character-checker</loc>
+    <loc>https://edurancehub.vercel.app/tools/entertainment/character-checker</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://edurancehub.com/tools/entertainment/sex-ride-tonight</loc>
+    <loc>https://edurancehub.vercel.app/tools/entertainment/sex-ride-tonight</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://edurancehub.com/tools/entertainment/dowry-calculator</loc>
+    <loc>https://edurancehub.vercel.app/tools/entertainment/dowry-calculator</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://edurancehub.com/tools/entertainment/pet-affection</loc>
+    <loc>https://edurancehub.vercel.app/tools/entertainment/pet-affection</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://edurancehub.com/tools/entertainment/laziness-calculator</loc>
+    <loc>https://edurancehub.vercel.app/tools/entertainment/laziness-calculator</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -232,55 +232,55 @@
   
   <!-- Games -->
   <url>
-    <loc>https://edurancehub.com/games/math-roast</loc>
+    <loc>https://edurancehub.vercel.app/games/math-roast</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://edurancehub.com/games/typing-speed</loc>
+    <loc>https://edurancehub.vercel.app/games/typing-speed</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://edurancehub.com/games/tic-tac-toe</loc>
+    <loc>https://edurancehub.vercel.app/games/tic-tac-toe</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://edurancehub.com/games/rock-paper-scissors</loc>
+    <loc>https://edurancehub.vercel.app/games/rock-paper-scissors</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://edurancehub.com/games/snake</loc>
+    <loc>https://edurancehub.vercel.app/games/snake</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://edurancehub.com/games/memory-flip</loc>
+    <loc>https://edurancehub.vercel.app/games/memory-flip</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://edurancehub.com/games/word-scramble</loc>
+    <loc>https://edurancehub.vercel.app/games/word-scramble</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://edurancehub.com/games/pong-2d</loc>
+    <loc>https://edurancehub.vercel.app/games/pong-2d</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://edurancehub.com/games/hangman</loc>
+    <loc>https://edurancehub.vercel.app/games/hangman</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
